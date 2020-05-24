@@ -1,0 +1,67 @@
+.container {
+    width: 100%;
+    height: 320rpx;
+    display: flex;            /**设置为flex布局*/
+    flex-direction: row;      /**设置水平方向为主轴*/
+    justify-content: center;  /**设置主轴样式*/
+}
+
+.inner-container {
+    width: 730rpx;
+    height: 300rpx;
+    border: 1px dashed #DCEBE6;
+}
+
+.grid-item{
+    width: 200rpx;
+    /* height: 200rpx; */
+    display: flex;
+    flex-direction: column;  /*让布局处于垂直分布(colum为主轴，row为交叉轴)*/
+    align-items: center;     /*控制交叉轴方向*!*/
+}
+
+.img {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.text{
+   margin-top: 6rpx;
+   font-size: 24rpx;
+   color:#333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.inner-container{*/
+/*    width: 730rpx;*/
+/*    height: 300rpx;*/
+/*    border: 1px dashed #DCEBE6;*/
+/*}*/
+
+/*.grid-item{*/
+/*    width:200rpx;*/
+/*    !*height:200rpx;*!*/
+/*    display: flex;*/
+/*    flex-direction: column;   !*让布局处于垂直分布(colum为主轴，row为交叉轴)*!*/
+/*    align-items: center;      !*控制交叉轴方向*!*/
+/*}*/
+
+/*.img{*/
+/*    width:60rpx;*/
+/*    height:60rpx;*/
+/*}*/
+
+/*.text{*/
+/*    margin-top: 6rpx;*/
+/*    font-size: 24rpx;*/
+/*    color:#333333;*/
+/*}*/
